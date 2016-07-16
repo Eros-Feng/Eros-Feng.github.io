@@ -5,7 +5,7 @@ body{
 .container{
 	background: #006135;
 	padding:0 70px 70px 70px;
-	min-width: 320px;
+	min-width: 360px;
 }
 
 
@@ -17,8 +17,8 @@ body{
 	position: relative;
 }
 .navbar-toggle{
-	margin-top: 69px;
-	margin-right: 30px;
+	margin-top: 71px;
+	margin-right: 10px;
 }
 .navbar-inverse{
 	border: none;
@@ -233,7 +233,7 @@ body{
 	}
 	.navbar-inverse .navbar-form{
 		float: left;
-		left: -3px;
+		left: 10px;
 		right: 88%;
 		top: 33%;
 		width: 20%;

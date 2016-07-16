@@ -55,6 +55,7 @@
 @media (max-width:768px) {
 	.contact{
 		padding: 10px 0;
+		margin-top: -40px;
 	}
 	.contact .form-group{
 		width: 100%;

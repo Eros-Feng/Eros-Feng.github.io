@@ -27,5 +27,9 @@
 		padding: 10px;
 	}
 }
-
+@media (max-width:768px) {
+	.search{
+		margin-top: -40px;
+	}
+}
 	
