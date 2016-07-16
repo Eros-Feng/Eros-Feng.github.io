@@ -1,1 +1,0 @@
-$(function(){var a=false;$(".snd-nav").parent().each(function(){$(this).mouseover(function(){$(this).children(".snd-nav").css("display","block")});$(this).mouseout(function(){$(this).children(".snd-nav").css("display","none")})});$("#search").click(function(){if(!a){$("#search-input").show();a=true;return false}else{$("#search-input").hide();a=false;return true}})});
