@@ -139,6 +139,9 @@
 	.article .left-content .aboubst{
 		margin:0;
 	}
+	.carousel{
+		margin-top: -40px;
+	}
 }
 
 
@@ -161,6 +164,7 @@
 @media (max-width: 768px) {
 	.carousel-inner>.item>a>img, .carousel-inner>.item>img{
 		height: 240px;
+		width: 100%; 
 	}
 	.carousel-indicators li, .carousel-indicators .active{
 		width: 7px;
