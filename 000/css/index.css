@@ -1,0 +1,173 @@
+
+/*轮播部分开始*/
+.carousel-indicators li,.carousel-indicators .active{
+	width: 10px;
+	height: 10px;
+	margin: 5px;
+	border:none;
+}
+.carousel-indicators .active{
+	background: #fff;
+}
+.carousel-indicators li{
+	background: #969696;
+}
+/*轮播部分结束*/
+
+/*栅格部分开始*/
+
+.article .left-content{
+	float: left;
+	width: 70%;
+}
+.article .left-content h3,.article .right-content h3{
+	border-bottom: 1px solid #fff;
+	font-family: "CovingtonSC";
+	color: #fff;
+	font-size: 16px;
+	margin-top: 30px;
+	padding-bottom: 15px;
+}
+.article .left-content section{
+	margin-bottom: 65px;
+}
+.article .left-content section div{
+	height: 170px;
+	position: relative;
+}
+
+.article .left-content section div img{
+	width: 40%;
+	height: 92%;
+	margin: 5px;
+	float: left;
+}
+.article .left-content section div .content span{
+	color: #fff;
+	opacity: .6;
+	font-family: "CovingtonSC";
+}
+.article .left-content section div .content b{
+	font-family: "CovingtonSC";
+	font-size: 16px;
+	opacity: 1;
+	color: #fff;
+}
+.article .left-content section div p a{
+	font-family: "Utsaah";
+	position: absolute;
+	color: #fff;
+	right: 10px;
+	bottom: 0;
+}
+.article .left-content>div{
+	float: left;
+	width: 48%;
+}
+.article .left-content .aboubst{
+	margin-right: 20px;
+}
+.article .left-content .aboubst p,.article .left-content .ffography ul{
+	color: #fff;
+	opacity: .6;
+	list-style: none;
+	padding: 0;
+}
+.article .right-content{
+	float: right;
+	width: 25%;
+}
+.article .right-content section{
+	margin-bottom: 30px;
+}
+.article .right-content section div.img img{
+	padding: 10px;
+	width: 100%;
+	height: 100%;
+}
+.article .right-content section div h4{
+	font-family: "CovingtonSC";
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+}
+.article .right-content section div p{
+	color: #fff;
+	opacity: .6;
+	font-family: "CovingtonSC";
+}
+/*栅格部分结束*/
+/*首页结束*/
+
+@media (max-width:768px) {
+	.article .left-content,.article .right-content{
+		float: none;
+		width: 100%;
+		padding: 0 5px;
+	}
+	.article .left-content section{
+		background: rgb(19,133,81);
+		margin-bottom: 20px;
+	}
+	.article .left-content>div{
+		float: none;
+		width: 100%;
+	}
+	.article .right-content section div.img{
+		text-align: center;
+	}
+	.article .right-content section div.img img{
+		width: 80%;
+		margin: 0 auto;
+		height: 100%;
+	}
+	.article .right-content section div p{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.article .left-content .aboubst{
+		margin:0;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	text-align: center;
+	color: #fff;
+	height: 100px;
+	line-height: 100px;
+	font-family: "Utsaah";
+	font-size: 14px;
+}
