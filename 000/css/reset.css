@@ -171,7 +171,11 @@
 	}
 	
 }
-
+@media (min-width: 769px) {
+	.navbar-form .form-group button.inputicon{
+		display: none !important;
+	}
+}
 @media (max-width: 768px){
 	.navbar-form .search-icon{
 		display: inline-block;
