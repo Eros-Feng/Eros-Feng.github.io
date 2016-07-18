@@ -8,15 +8,13 @@ $(function(){
 				$(this).children('.snd-nav').css('display','none');
 			});
 	});
-	$('#search').click(function(){
+	$('#sricon').click(function(){
 		if (!tag) {
 			$('#search-input').show();
 			tag = true;
-			return false;
 		}else {
 			$('#search-input').hide();
 			tag = false;
-			return true;
 		}
 	});
 		
