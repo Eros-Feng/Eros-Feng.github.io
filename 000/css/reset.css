@@ -1,0 +1,286 @@
+﻿body{
+	background: #004D24;
+	font-size: 12px;
+}
+.container{
+	background: #006135;
+	padding:0 70px 70px 70px;
+	/*min-width: 360px;*/
+}
+
+
+/*首页开始*/
+/*页头部分开始*/
+.header{
+	height: 270px;
+	background: url(../img/logo.png) 0 100px no-repeat;
+	position: relative;
+}
+.navbar-toggle{
+	margin-top: 52px;
+	margin-right: 40px;
+}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+	max-height:none;
+}
+.navbar-inverse{
+	border: none;
+}
+
+
+.nav-pills>li{
+	position: relative;
+	margin-right: 10px;
+}
+.nav-pills>li a{
+	color: #B4AC2C;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.nav-pills>li a:hover{
+	color: #FFC401;
+	background: #017C43;
+}
+.snd-nav{
+	position: absolute;
+	z-index: 20;
+	padding-left: 0;
+	margin-right: 10px;
+	display: none;
+}
+.snd-nav li{
+	list-style: none;
+	background: #017C43;
+}
+.snd-nav li a{
+	display: block;
+	padding: 10px 30px;
+	font-size: 20px;
+}
+.snd-nav li a:hover{
+	background: #069c57;
+	text-decoration: none;
+}
+
+.navbar-form{
+	position: absolute;
+	right: 10px;
+	top: 60%;
+	z-index: 10;
+}
+.navbar-form .search-icon{
+	display: none;
+}
+.clear{
+	clear: both;
+	height: 0;
+	line-height: 0;
+	font-size: 0;
+}
+.navbar-form .inputicon{
+	display: none;
+}
+/*页头部分结束*/
+
+
+/*首页结束*/
+
+
+
+
+/*列表页开始*/
+
+
+
+/*列表页结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1201px) {
+	.nav-pills{
+		float: right;
+		margin-top: 90px;
+		
+	}
+	.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse{
+		margin-right: -20px;
+	}
+}
+@media (max-width:1200px) {
+	.container{
+		padding:0;
+	}
+	.nav-pills{
+		float: right;
+		margin-top: 90px;
+		
+	}
+}
+@media (max-width: 1000px) {
+	.container{
+		padding:0;
+		width: 100%;
+	}
+	.nav-pills{
+		margin-top: 0px;
+		display: inline-block;
+		float: none;
+		
+	}
+	.header{
+		height: 270px;
+		background: url(../img/logo.png) center 100px no-repeat;
+		position: relative;
+	}
+
+	.navbar-toggle{
+		padding: 0;
+		border: none;
+	}
+	.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+		border: none;
+		background: #006135;
+	}
+	.navbar-toggle .icon-bar{
+		width: 17px;
+		height: 3px;
+		margin-bottom: 4px;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+		width: 100%;
+		text-align: center;
+		right: 0;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		border: none;
+		float: left;
+	}
+	.navbar-inverse .navbar-form{
+		top: 88%;
+
+	}
+	
+}
+@media (min-width: 768px) {
+	.navbar-form .form-group button.inputicon{
+		display: none !important;
+	}
+}
+@media (max-width: 768px){
+	.navbar-form .search-icon{
+		display: inline-block;
+		cursor: pointer;
+		width: 15px;
+		height: 15px;
+		margin-top: -18px;
+		position: absolute;
+		left: 40px;
+	}
+	.navbar-form .form-control{
+		display: none;
+	}
+	.header{
+		height: 160px;
+		background: url(../img/logo_s.png) center 30px no-repeat;
+	}
+	.navbar-inverse .navbar-collapse{
+		position: absolute;
+		top: 139px;
+		padding:0;
+	}
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		border: none;
+	}
+	.nav-pills{
+		display: block;
+	}
+	.nav-pills>li{
+		float: none;
+		margin: 0
+	}
+	.nav-pills>li a{
+		background: rgb(0,62,32);
+	}
+	.nav-pills>li a:hover{
+		background: #017C43;
+	}
+	.nav-pills>li>a{
+		border-bottom: 2px solid rgb(35,80,58);
+	}
+	.snd-nav{
+		position: static;
+		margin-right: 0;
+		display: block;
+	}
+	.navbar-inverse .navbar-form{
+		float: left;
+		left: 10px;
+		right: 88%;
+		top: 33%;
+		width: 50%;
+	}
+	.navbar-form input{
+		height: 35px;
+		width: 200%;
+		display: none;
+		position: absolute;
+		top: 43px;
+		left: 5px;
+	}
+	.navbar-form .inputicon{
+		width: 16px;
+		height: 16px;
+		position: absolute;
+		right: -102%;
+		top: 218%;
+		background: url(../img/search2.png) center no-repeat;
+	}
+	.navbar-form button[type='submit']{
+		border: none;
+		width: 52px;
+		height: 55px;
+		outline: none;
+		color: transparent;
+		/*background: url(../img/search.png) no-repeat;*/
+		display: none;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	text-align: center;
+	color: #fff;
+	height: 100px;
+	line-height: 100px;
+	font-family: "Utsaah";
+	font-size: 14px;
+}

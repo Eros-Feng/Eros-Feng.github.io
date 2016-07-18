@@ -1,0 +1,36 @@
+.search{
+	width: 100%;
+	background: #fff;
+	margin: 0 auto;
+	padding: 50px;
+	margin-top: -40px;
+}
+.search h3{
+	border-bottom: 1px solid #000;
+	padding-bottom: 20px;
+	font-size: 25px;
+	font-family: "The New Roman";
+	font-weight: bold;
+
+}
+
+.img{
+	width: 100%;
+	height: 100%;
+}
+.img img{
+	width: 100%;
+	height: 100%;
+}
+@media (max-width:1000px) {
+	.search{
+		width: 100%;
+		padding: 10px;
+	}
+}
+@media (max-width:768px) {
+	.search{
+		margin-top: -40px;
+	}
+}
+	

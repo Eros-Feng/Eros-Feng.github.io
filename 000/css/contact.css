@@ -1,0 +1,75 @@
+.contact{
+	width: 100%;
+	padding: 50px;
+	background: #383838;
+	margin-top: -40px;
+}
+.contact h3{
+	color: #fff;
+	font-size: 25px;
+	font-family: "The New Roman";
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.contact .form-group{
+	width: 50%;
+	margin-bottom: 30px;
+}
+.contact .form-group label{
+	color: #fff;
+	font-size: 18px;
+	font-weight: normal;
+}
+.contact .form-control{
+	height: 50px;
+	font-size: 20px;
+	color: #000;
+	border-radius: 0;
+	appearance:none;
+	  -moz-appearance:none;
+	  -webkit-appearance:none;
+}
+.contact select.form-control{
+	background: #fff url(../img/arrow.png) 95% center no-repeat;
+}
+.contact .textarea{
+	width: 100%;
+}
+.contact textarea.form-control{
+	height: 180px;
+}
+.contact button{
+	width: 170px;
+	height: 50px;
+	line-height: 45px;
+	font-size: 18px;
+	padding: 0;
+}
+
+@media (max-width:1200px) {
+	.contact{
+		width: 100%;
+	}
+}
+@media (max-width:768px) {
+	.contact{
+		padding: 10px 0;
+		margin-top: -40px;
+	}
+	.contact .form-group{
+		width: 100%;
+		margin-bottom: 30px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
