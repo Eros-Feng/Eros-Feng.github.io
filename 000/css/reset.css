@@ -142,7 +142,7 @@
 	}
 	.header{
 		height: 270px;
-		background: url(../img/logo.png) center 100px no-repeat;
+		background: url(../img/logo.png) center 70px no-repeat;
 		position: relative;
 	}
 
@@ -169,7 +169,7 @@
 		float: left;
 	}
 	.navbar-inverse .navbar-form{
-		top: 88%;
+		top: 73%;
 
 	}
 	
