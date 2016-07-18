@@ -13,7 +13,7 @@
 /*页头部分开始*/
 .header{
 	height: 270px;
-	background: url(../img/logo.png) 30px 100px no-repeat;
+	background: url(../img/logo.png) 0px 100px no-repeat;
 	position: relative;
 }
 .navbar-toggle{
@@ -121,7 +121,7 @@
 }
 @media (max-width:1200px) {
 	.container{
-		padding:0;
+		padding:10px;
 	}
 	.nav-pills{
 		float: right;
@@ -131,7 +131,7 @@
 }
 @media (max-width: 1000px) {
 	.container{
-		padding:0;
+		padding:0px;
 		width: 100%;
 	}
 	.nav-pills{
@@ -174,12 +174,12 @@
 	}
 	
 }
-@media (min-width: 768px) {
+@media (min-width: 769px) {
 	.navbar-form .form-group button.inputicon{
 		display: none !important;
 	}
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
 	.navbar-form .search-icon{
 		display: inline-block;
 		cursor: pointer;
