@@ -1,5 +1,8 @@
 
 /*轮播部分开始*/
+.carousel{
+	margin-top: -40px;
+}
 .carousel-indicators li,.carousel-indicators .active{
 	width: 10px;
 	height: 10px;

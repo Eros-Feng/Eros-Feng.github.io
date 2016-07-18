@@ -3,9 +3,10 @@
 
 .list{
 	background-color: #fff;
-	width: 95%;
+	width: 100%;
 	margin: 0 auto;
 	padding: 50px;
+	margin-top: -40px;
 }
 .list .list-content{
 	width: 100%;

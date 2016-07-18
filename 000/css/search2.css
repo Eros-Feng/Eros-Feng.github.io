@@ -1,8 +1,9 @@
 .search{
-	width: 95%;
+	width: 100%;
 	background: #fff;
 	margin: 0 auto;
 	padding: 50px;
+	margin-top: -40px;
 }
 .search h3{
 	border-bottom: 1px solid #000;
