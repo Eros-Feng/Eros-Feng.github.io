@@ -10,10 +10,10 @@ $(function(){
 	});
 	$('#sricon').click(function(){
 		if (!tag) {
-			$('#search-input').show();
+			$('#search-input').show(1000);
 			tag = true;
 		}else {
-			$('#search-input').hide();
+			$('#search-input').hide(1000);
 			tag = false;
 		}
 	});
